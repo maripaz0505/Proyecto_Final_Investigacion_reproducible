@@ -32,7 +32,7 @@ output:
 #### Cargamos las librerías 
 ```{r, echo=FALSE, include=F}
 
-setwd("https://github.com/maripaz0505/Proyecto_Final_Investigacion_reproducible/edit/main/Análisis%20preliminar%20de%20variables%20en%20modelo%20animal.Rmd")
+setwd("~/Documents/GitHub/Proyecto_Final_Investigacion_reproducible")
 ```
 
 ```{r, echo=FALSE, message=FALSE}
