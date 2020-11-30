@@ -29,9 +29,10 @@ output:
 
 ![Ratas Wistar utilizadas en el modelo animal de obesidad](PHOTO-2019-11-30-17-42-49.jpg){width=60%}
 
+#### Cargamos las librerías 
 ```{r, echo=FALSE, include=F}
 
-setwd("~/Downloads")
+setwd("https://github.com/maripaz0505/Proyecto_Final_Investigacion_reproducible/edit/main/Análisis%20preliminar%20de%20variables%20en%20modelo%20animal.Rmd")
 ```
 
 ```{r, echo=FALSE, message=FALSE}
