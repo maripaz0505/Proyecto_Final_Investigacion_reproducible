@@ -28,7 +28,7 @@ output:
 
 #### Este análisis incluye un DAG tipo pipe que relaciona el tipo de dieta (sea dieta de cafetería o control), y las diferentes variables que llevan al individuo a aumentar o disminuir el peso. Los controles consumieron alimento de roedor de laboratorio estándar. 
 
-![](DAG Maripaz)
+![](DAG Maripaz.png)
 
 # **METODOLOGÍA Y RESULTADOS**
 
