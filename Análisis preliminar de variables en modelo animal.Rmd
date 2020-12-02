@@ -302,3 +302,15 @@ p1
 # **CONCLUSIONES**
 
 #### El modelo elegido nos permitió identificar las variables *GLUC..mg.dL. + GRUPO + Nac.BDNF + Nac.TrkB + TADIPOSO.REL + Nac.CREB* como las variables que explicaban el aumento en el peso de los animales al recibir dieta de cafetería. Sin embargo, solo el tejido adiposo en gramos y la concentración de glucosa en sangre tuvieron un efecto significativo sobre la variable respuesta. Es interesante mencionar que la concentración de glucosa en sangre más bien aumentó en animales control, esto fue un indicador para empezar a estudiar la calidad de alimento estándar que reciben los animales de laboratorio. Se realizaron otras pruebas posteriores para lograr identificar que este alimento no era el mejor, y se realizó el cambio a niver institucional.
+
+# **BIBLIOGRAFÍA**
+
+##### Berthoud, H.R., Lenard, N.R., Shin, A.C. (2001). Food reward, hyperphagia, and obesity. Am J Physiol Regul Integr Comp Physiol, 300, 1266–1277.
+##### Blumenthal, D. M., & Gold, M. S. (2010). Neurobiology of food addiction. Current Opinion in Clinical Nutrition & Metabolic Care, 13(4), 359-365.
+##### Fisberg, M., Kovalskys, I., Gomez, G., Rigotti, A., Cortés, L. Y., Herrera-Cuenca, M., ... & Chiavegatto Filho, A. D. P. (2015). Latin American Study of Nutrition and Health (ELANS): rationale and study design. BMC Public Health, 16(1), 93.
+##### Kovalskys, I., Fisberg, M., Gómez, G., Pareja, R., Yépez García, M., Cortés Sanabria, L., Koletzko, B. (2018). Energy intake and food sources of eight Latin American countries: Results from the Latin American Study of Nutrition and Health (ELANS). Public Health Nutrition, 21(14), 2535-2547. 
+##### Lyon, H.N., Hirschhorn, J.N. (2005). Genetics of common forms of obesity: a brief overview. Am J Clin Nutr, 82, 215S–217S.
+##### Ministerio de Salud y Ministerio de Educación Pública. (2017). Informe Ejecutivo Censo Escolar Peso/Talla. Costa Rica 2016. Recuperado de http://www.mep.go.cr/sites/default/files/page/adjuntos/informe-ejecutivo-censo-escolar- peso-cortofinal.pdf
+##### Morris, M.J., Beilharz, J.E., Maniam, J., Reichelt, A.C., Westbrook, R.F. (2015). Why is obesity such a problem in the 21st century? The intersection of palatable food, cues and reward pathways, stress, and cognition. Neurosci Bio behav Rev, 58, 36–45.
+##### Popkin, B.M., Reardon, T. (2018). Obesity and the food system transformation in Latin America. Obesity, 19, 1028–1064.
+
