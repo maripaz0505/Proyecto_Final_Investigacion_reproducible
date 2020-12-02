@@ -30,6 +30,7 @@ output:
 
 ![](DAG Maripaz.png)
 
+#### El link para encontrar la base de datos y todo lo que se necesita para reproducir el análisis es [Link](
 # **METODOLOGÍA Y RESULTADOS**
 
 #### El experimento se realizó en la sala de experimentación animal del Laboratorio de Ensayos Biológicos de la UCR. La exposición a la dieta, o al alimento estándar para el caso de los controles, fue de 90 días. Posterior a la exposición los animales se pesaron y se realizó la eutanasia de los mismos, con el fin de colectar todo el tejido adiposo perogonadal y abdominal (que representa la grasa corporal),y las secciones del cerebro que se querían estudiar. Una vez extraídas las regiones cerebrales se congelaron con el reactivo preservante TRIzol, y se congelaron a -80ºC, con el fin de evitar la degradación de ARN. Además se colectó sangre troncal, para analizar parámetros de bioquímica sanguínea como glucosa,triglicéridos y colesterol total. Para la expresión genética se realizó una qPCR y se analizaron los valores de delta-RT, que son los que aparecen en la base de datos.
