@@ -30,7 +30,8 @@ output:
 
 ![](DAG Maripaz.png)
 
-#### El link para encontrar la base de datos y todo lo que se necesita para reproducir el análisis es [Link](
+#### El link para encontrar la base de datos y todo lo que se necesita para reproducir el análisis este [Link]("https://github.com/maripaz0505/Proyecto_Final_Investigacion_reproducible")
+
 # **METODOLOGÍA Y RESULTADOS**
 
 #### El experimento se realizó en la sala de experimentación animal del Laboratorio de Ensayos Biológicos de la UCR. La exposición a la dieta, o al alimento estándar para el caso de los controles, fue de 90 días. Posterior a la exposición los animales se pesaron y se realizó la eutanasia de los mismos, con el fin de colectar todo el tejido adiposo perogonadal y abdominal (que representa la grasa corporal),y las secciones del cerebro que se querían estudiar. Una vez extraídas las regiones cerebrales se congelaron con el reactivo preservante TRIzol, y se congelaron a -80ºC, con el fin de evitar la degradación de ARN. Además se colectó sangre troncal, para analizar parámetros de bioquímica sanguínea como glucosa,triglicéridos y colesterol total. Para la expresión genética se realizó una qPCR y se analizaron los valores de delta-RT, que son los que aparecen en la base de datos.
@@ -314,4 +315,11 @@ p1
 ##### Ministerio de Salud y Ministerio de Educación Pública. (2017). Informe Ejecutivo Censo Escolar Peso/Talla. Costa Rica 2016. Recuperado de http://www.mep.go.cr/sites/default/files/page/adjuntos/informe-ejecutivo-censo-escolar- peso-cortofinal.pdf
 ##### Morris, M.J., Beilharz, J.E., Maniam, J., Reichelt, A.C., Westbrook, R.F. (2015). Why is obesity such a problem in the 21st century? The intersection of palatable food, cues and reward pathways, stress, and cognition. Neurosci Bio behav Rev, 58, 36–45.
 ##### Popkin, B.M., Reardon, T. (2018). Obesity and the food system transformation in Latin America. Obesity, 19, 1028–1064.
+
+
+```{r, eval=T, echo=T}
+
+sessionInfo()
+```
+
 
