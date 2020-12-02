@@ -30,7 +30,7 @@ output:
 
 ![](DAG Maripaz.png)
 
-#### El link para encontrar la base de datos y todo lo que se necesita para reproducir el análisis este [Link]("https://github.com/maripaz0505/Proyecto_Final_Investigacion_reproducible")
+#### La base de datos y todo lo que se necesita para reproducir el análisis se encuentra en el siguiente [Link](https://github.com/maripaz0505/Proyecto_Final_Investigacion_reproducible)
 
 # **METODOLOGÍA Y RESULTADOS**
 
