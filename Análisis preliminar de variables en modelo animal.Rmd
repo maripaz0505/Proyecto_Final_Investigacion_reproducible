@@ -165,13 +165,21 @@ m <- dredge(obesos.lm, rank="AIC")
 ```{r, echo=T, eval=T}
 
 m0 <- lm(PESOSEM9 ~ 1, data = obesos)
+summary(m0)
 m.n <- lm(PESOSEM9 ~ GLUC..mg.dL. + GRUPO + Nac.BDNF + Nac.TrkB + TADIPOSO.REL + Nac.CREB, data = obesos)
+summary(m.n)
 m.n1 <- lm(PESOSEM9 ~ GLUC..mg.dL., data = obesos)
+summary(m.n1)
 m.n2 <- lm(PESOSEM9 ~ GLUC..mg.dL. + GRUPO, data = obesos)
+summary(m.n2)
 m.n3 <- lm(PESOSEM9 ~ GLUC..mg.dL. + GRUPO + Nac.BDNF, data = obesos)
+summary(m.n3)
 m.n4 <- lm(PESOSEM9 ~ GLUC..mg.dL. + GRUPO + Nac.BDNF + Nac.TrkB, data = obesos)
+summary(m.n4)
 m.n5 <- lm(PESOSEM9 ~ GLUC..mg.dL. + GRUPO + Nac.BDNF + Nac.TrkB + TADIPOSO.REL, data = obesos)
+summary(m.n5)
 m.n6 <- lm(PESOSEM9 ~ GLUC..mg.dL. + GRUPO + TADIPOSO.REL, data = obesos)
+summary(m.n6)
 
 ```
 
@@ -189,11 +197,15 @@ avPlots(m.n, ask=F)
 
 ```
 
+#### Los modelos m.n y m.n5 fueron los que tuvieron menor valor, entonces evaluamos si la diferencia entre estos fue significativa. Como la probabilidad de que estos modelos tuvieran AIC diferentes no fue significativa se eligió el modelo que incluyera más variables, en este caso elegimos continuar con el m.n5.
 
-####Estos gráficos nos permiten evaluar los residuales de las variables predictoras.
+#### Con el modelo m.n5 podemos observar que únicamente las variables **tejido adiposo** y **glucosa en sangre** tienen un efecto significativo sobre la variable respuesta.
 
+#### A continuación realizamos gráficos que nos permiten evaluar los residuales de las variables predictoras. Podemos observar las predicciones que se esperarían según el peso del individuo. 
 
 # **GRÁFICOS DE PREDICCIONES**
+
+#### Además hacemos algunos gráficos de predicciones según grupo de tratamiento donde grupo 1 es tratamiento (dieta de cafetería) y grupo 2 es control. Hicimos gráficos para las variables predictoras del modelo elegido, las cuales son tejido adiposo relativo (que corresponde a la grasa corporal) y la glucosa en sangre.
 
 ```{r, echo=T, eval=T}
 
@@ -304,10 +316,13 @@ p1 <- ggplot(newdata3, aes(x = glucosa, y = fit, fill = grupo)) +
 
 p1
 ```
+#### Como se observa en los gráficos los animales del grupo 2, que fueron los que recibieron dieta de cafetería, tienden a tener mayor peso que los animales del grupo 1. Sin embargo los valores del tejido adiposo serán similares. Además van a haber valores que traslapan sin importar el grupo en el que estén los animales. Con respecto a la glucosa en sangre la relación es al revés, igualmente el peso es mayoren animales que reciben dieta de cafetería, pero a mayor peso menores serán los valores de glucosa en sangre. 
 
 # **CONCLUSIONES**
 
-#### El modelo elegido nos permitió identificar las variables *GLUC..mg.dL. + GRUPO + Nac.BDNF + Nac.TrkB + TADIPOSO.REL + Nac.CREB* como las variables que explicaban el aumento en el peso de los animales al recibir dieta de cafetería. Sin embargo, solo el tejido adiposo en gramos y la concentración de glucosa en sangre tuvieron un efecto significativo sobre la variable respuesta. Es interesante mencionar que la concentración de glucosa en sangre más bien aumentó en animales control, esto fue un indicador para empezar a estudiar la calidad de alimento estándar que reciben los animales de laboratorio. Se realizaron otras pruebas posteriores para lograr identificar que este alimento no era el mejor, y se realizó el cambio a niver institucional.
+#### El modelo elegido nos permitió identificar las variables *GLUC..mg.dL. + GRUPO + Nac.BDNF + Nac.TrkB + TADIPOSO.REL + Nac.CREB* como las variables que explicaban el aumento en el peso de los animales al recibir dieta de cafetería. Sin embargo, solo el tejido adiposo en gramos y la concentración de glucosa en sangre tuvieron un efecto significativo sobre la variable respuesta. Es interesante mencionar que la concentración de glucosa en sangre más bien aumentó en animales control, igualmente los animales con más peso tuvieron menores valores de glucosa en sangre. Esto fue un indicador para empezar a estudiar la calidad de alimento estándar que reciben los animales de laboratorio. Se realizaron otras pruebas posteriores para lograr identificar que este alimento no era el mejor, y se realizó el cambio a nivel institucional.
+
+
 
 # **BIBLIOGRAFÍA**
 
