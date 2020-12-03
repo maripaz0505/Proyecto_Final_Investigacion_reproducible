@@ -315,7 +315,9 @@ p1 <- ggplot(newdata3, aes(x = glucosa, y = fit, fill = grupo)) +
     theme(text = element_text(size=12))
 
 p1
+
 ```
+
 #### Como se observa en los gráficos los animales del grupo 2, que fueron los que recibieron dieta de cafetería, tienden a tener mayor peso que los animales del grupo 1. Sin embargo los valores del tejido adiposo serán similares. Además van a haber valores que traslapan sin importar el grupo en el que estén los animales. Con respecto a la glucosa en sangre la relación es al revés, igualmente el peso es mayoren animales que reciben dieta de cafetería, pero a mayor peso menores serán los valores de glucosa en sangre. 
 
 # **CONCLUSIONES**
